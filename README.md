@@ -49,7 +49,7 @@ npm i simple-upload-component
 | acceptFilesDescription    | string                        | false      | all file types          |
 | listOfSelecetedFilesTitle | string                        | false      | list of selected files: |
 
-:rotating_light: If state not set, it will not work :rotating_light:
+:rotating_light: If state is not set, it will not work :rotating_light:
 
 #### customization properties:
 
