@@ -20,22 +20,23 @@ npm i simple-upload-component
 ```
 ---
 ## Documentation
-<br >
+<br />
 #### main properties
 | property | type | isRequired| default|
 | ------ | ------ | ------ | ------ |
 | files | React state | true | none (*) |
 | setFiles | react state function | true | none (*) |
-| multiple | boolean | false | false
-| validationFilesRegex | regex | false | * (accept all files)
-| acceptFiles | string [html input attribute] | false | *
-| selectFilesTitle | string | false | select files
-| acceptFilesTitle | string | false | Acceptable files
-| acceptFilesDescription | string | false | all file types
-| listOfSelecetedFilesTitle | string | false | list of selected files:
+| multiple | boolean | false | false |
+| validationFilesRegex | regex | false | * (accept all files) |
+| acceptFiles | string [html input attribute] | false | * |
+| selectFilesTitle | string | false | select files |
+| acceptFilesTitle | string | false | Acceptable files |
+| acceptFilesDescription | string | false | all file types |
+| listOfSelecetedFilesTitle | string | false | list of selected files: |
 :rotating_light: If state not set, it will not work :rotating_light:
 
 #### customization properties
+
 | property | type | isRequired |
 | ------ | ------ | ------ | 
 | rootClasses | string | false | 
