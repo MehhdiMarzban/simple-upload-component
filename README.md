@@ -2,7 +2,6 @@
 
 #### fast , easy to use, fully customizable
 
-
 [![MehhdiMarzban - simple-upload-component](https://img.shields.io/static/v1?label=MehhdiMarzban&message=simple-upload-component&color=blue&logo=github)](https://github.com/MehhdiMarzban/simple-upload-component "Go to GitHub repo")
 
 [![npm - simple-upload-component](https://img.shields.io/badge/npm-simple--upload--component-green)](https://www.npmjs.com/package/simple-upload-component)
@@ -39,7 +38,7 @@ npm i simple-upload-component
 
 | property                  | type                          | isRequired | default                 |
 | ------------------------- | ----------------------------- | ---------- | ----------------------- |
-| files                     | React state                   | true       | none (\*)               |
+| files                     | React state Array             | true       | none (\*)               |
 | setFiles                  | react state function          | true       | none (\*)               |
 | multiple                  | boolean                       | false      | false                   |
 | validationFilesRegex      | regex                         | false      | \* (accept all files)   |
@@ -65,9 +64,10 @@ npm i simple-upload-component
 | listOfFilesItemDeleteButtonClassess | string | false      |
 
 #### simple useage in react:
+
 ```javascript
 import Upload from "simple-upload-react";
-import {useState} from "react";
+import { useState } from "react";
 function App() {
     const [files, setFiles] = useState([]);
     return (
@@ -79,6 +79,7 @@ function App() {
 
 export default App;
 ```
+
 ## License
 
 Released under [MIT](/LICENSE) by [@MehhdiMarzban](https://github.com/MehhdiMarzban).
