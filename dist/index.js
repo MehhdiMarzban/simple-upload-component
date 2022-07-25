@@ -5,9 +5,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _upload = _interopRequireDefault(require("./components/upload"));
+var _Upload = _interopRequireDefault(require("./components/Upload"));
+
+require("./index.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _default = _upload.default;
+var _default = _Upload.default;
 exports.default = _default;

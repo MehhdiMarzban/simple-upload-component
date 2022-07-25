@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# simple upload component
+#### fast , easy to use, fully customizable
+_Social buttons_
+<div align="center">
+[![MehhdiMarzban - simple-upload-component](https://img.shields.io/static/v1?label=MehhdiMarzban&message=simple-upload-component&color=blue&logo=github)](https://github.com/MehhdiMarzban/simple-upload-component "Go to GitHub repo")
+[![npm - simple-upload-component](https://img.shields.io/badge/npm-simple--upload--component-green)](https://www.npmjs.com/package/simple-upload-component)
+[![GitHub release](https://img.shields.io/github/release/MehhdiMarzban/simple-upload-component?include_prereleases=&sort=semver&color=blue)](https://github.com/MehhdiMarzban/simple-upload-component/releases/)
+[![issues - simple-upload-component](https://img.shields.io/github/issues/MehhdiMarzban/simple-upload-component)](https://github.com/MehhdiMarzban/simple-upload-component/issues)
+[![View site - personal site](https://img.shields.io/badge/View_site-mehdimarban.ir-2ea44f?style=for-the-badge)](https://mehdi-marzban.ir/)
+</div>
+---
+## Installation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+simple-upload-component requires [React.js](https://reactjs.org/) v18+ to run.
 
-## Available Scripts
+Install this component.
 
-In the project directory, you can run:
+```sh
+npm i simple-upload-component
+```
+---
+## Documentation
+<br >
+#### main properties
+| property | type | isRequired| default|
+| ------ | ------ | ------ | ------ |
+| files | React state | true | none (*) |
+| setFiles | react state function | true | none (*) |
+| multiple | boolean | false | false
+| validationFilesRegex | regex | false | * (accept all files)
+| acceptFiles | string [html input attribute] | false | *
+| selectFilesTitle | string | false | select files
+| acceptFilesTitle | string | false | Acceptable files
+| acceptFilesDescription | string | false | all file types
+| listOfSelecetedFilesTitle | string | false | list of selected files:
+:rotating_light: If state not set, it will not work :rotating_light:
 
-### `npm start`
+#### customization properties
+| property | type | isRequired |
+| ------ | ------ | ------ | 
+| rootClasses | string | false | 
+| uploadComponentClasses | string | false | 
+| selectFilesClasses | string | false | 
+| selectAcceptableClasses | string | false |
+| listOfFilesContainerClasses | string | false | 
+| listOfFilesItemContainerClasses | string | false | 
+| listOfFilesItemNameClassess | string | false | 
+| listOfFilesItemDeleteButtonClassess | string | false |
+## License
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Released under [MIT](/LICENSE) by [@MehhdiMarzban](https://github.com/MehhdiMarzban).
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Free Software, Hell Yeah!**
