@@ -15,6 +15,7 @@
         "dist",
         "README.md"
     ],
+    "license": "MIT",
     "version": "0.1.8",
     "private": false,
     "repository": {

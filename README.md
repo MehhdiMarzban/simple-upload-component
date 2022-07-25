@@ -4,9 +4,13 @@
 
 _Social buttons_
 [![MehhdiMarzban - simple-upload-component](https://img.shields.io/static/v1?label=MehhdiMarzban&message=simple-upload-component&color=blue&logo=github)](https://github.com/MehhdiMarzban/simple-upload-component "Go to GitHub repo")
+
 [![npm - simple-upload-component](https://img.shields.io/badge/npm-simple--upload--component-green)](https://www.npmjs.com/package/simple-upload-component)
+
 [![GitHub release](https://img.shields.io/github/release/MehhdiMarzban/simple-upload-component?include_prereleases=&sort=semver&color=blue)](https://github.com/MehhdiMarzban/simple-upload-component/releases/)
+
 [![issues - simple-upload-component](https://img.shields.io/github/issues/MehhdiMarzban/simple-upload-component)](https://github.com/MehhdiMarzban/simple-upload-component/issues)
+
 [![View site - personal site](https://img.shields.io/badge/View_site-mehdimarban.ir-2ea44f?style=for-the-badge)](https://mehdi-marzban.ir/)
 
 ---
@@ -31,7 +35,7 @@ npm i simple-upload-component
 
 ## Documentation
 
-#### main properties
+#### main properties:
 
 | property                  | type                          | isRequired | default                 |
 | ------------------------- | ----------------------------- | ---------- | ----------------------- |
@@ -47,7 +51,7 @@ npm i simple-upload-component
 
 :rotating_light: If state not set, it will not work :rotating_light:
 
-#### customization properties
+#### customization properties:
 
 | property                            | type   | isRequired |
 | ----------------------------------- | ------ | ---------- |
