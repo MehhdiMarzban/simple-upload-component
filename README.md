@@ -1,14 +1,16 @@
 # simple upload component
+
 #### fast , easy to use, fully customizable
+
 _Social buttons_
-<div align="center">
 [![MehhdiMarzban - simple-upload-component](https://img.shields.io/static/v1?label=MehhdiMarzban&message=simple-upload-component&color=blue&logo=github)](https://github.com/MehhdiMarzban/simple-upload-component "Go to GitHub repo")
 [![npm - simple-upload-component](https://img.shields.io/badge/npm-simple--upload--component-green)](https://www.npmjs.com/package/simple-upload-component)
 [![GitHub release](https://img.shields.io/github/release/MehhdiMarzban/simple-upload-component?include_prereleases=&sort=semver&color=blue)](https://github.com/MehhdiMarzban/simple-upload-component/releases/)
 [![issues - simple-upload-component](https://img.shields.io/github/issues/MehhdiMarzban/simple-upload-component)](https://github.com/MehhdiMarzban/simple-upload-component/issues)
 [![View site - personal site](https://img.shields.io/badge/View_site-mehdimarban.ir-2ea44f?style=for-the-badge)](https://mehdi-marzban.ir/)
-</div>
+
 ---
+
 ## Installation
 
 simple-upload-component requires [React.js](https://reactjs.org/) v18+ to run.
@@ -18,35 +20,46 @@ Install this component.
 ```sh
 npm i simple-upload-component
 ```
+
 ---
+
+## Preview
+
+![simple-upload-component before set files](https://github.com/MehhdiMarzban/simple-upload-component/blob/main/upload.png?raw=true)
+
+## ![simple-upload-component after set files](https://github.com/MehhdiMarzban/simple-upload-component/blob/main/uploadwithfile.png?raw=true)
+
 ## Documentation
-<br />
+
 #### main properties
-| property | type | isRequired| default|
-| ------ | ------ | ------ | ------ |
-| files | React state | true | none (*) |
-| setFiles | react state function | true | none (*) |
-| multiple | boolean | false | false |
-| validationFilesRegex | regex | false | * (accept all files) |
-| acceptFiles | string [html input attribute] | false | * |
-| selectFilesTitle | string | false | select files |
-| acceptFilesTitle | string | false | Acceptable files |
-| acceptFilesDescription | string | false | all file types |
-| listOfSelecetedFilesTitle | string | false | list of selected files: |
+
+| property                  | type                          | isRequired | default                 |
+| ------------------------- | ----------------------------- | ---------- | ----------------------- |
+| files                     | React state                   | true       | none (\*)               |
+| setFiles                  | react state function          | true       | none (\*)               |
+| multiple                  | boolean                       | false      | false                   |
+| validationFilesRegex      | regex                         | false      | \* (accept all files)   |
+| acceptFiles               | string [html input attribute] | false      | \*                      |
+| selectFilesTitle          | string                        | false      | select files            |
+| acceptFilesTitle          | string                        | false      | Acceptable files        |
+| acceptFilesDescription    | string                        | false      | all file types          |
+| listOfSelecetedFilesTitle | string                        | false      | list of selected files: |
+
 :rotating_light: If state not set, it will not work :rotating_light:
 
 #### customization properties
 
-| property | type | isRequired |
-| ------ | ------ | ------ | 
-| rootClasses | string | false | 
-| uploadComponentClasses | string | false | 
-| selectFilesClasses | string | false | 
-| selectAcceptableClasses | string | false |
-| listOfFilesContainerClasses | string | false | 
-| listOfFilesItemContainerClasses | string | false | 
-| listOfFilesItemNameClassess | string | false | 
-| listOfFilesItemDeleteButtonClassess | string | false |
+| property                            | type   | isRequired |
+| ----------------------------------- | ------ | ---------- |
+| rootClasses                         | string | false      |
+| uploadComponentClasses              | string | false      |
+| selectFilesClasses                  | string | false      |
+| selectAcceptableClasses             | string | false      |
+| listOfFilesContainerClasses         | string | false      |
+| listOfFilesItemContainerClasses     | string | false      |
+| listOfFilesItemNameClassess         | string | false      |
+| listOfFilesItemDeleteButtonClassess | string | false      |
+
 ## License
 
 Released under [MIT](/LICENSE) by [@MehhdiMarzban](https://github.com/MehhdiMarzban).
