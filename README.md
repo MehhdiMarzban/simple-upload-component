@@ -2,7 +2,7 @@
 
 #### fast , easy to use, fully customizable
 
-_Social buttons_
+
 [![MehhdiMarzban - simple-upload-component](https://img.shields.io/static/v1?label=MehhdiMarzban&message=simple-upload-component&color=blue&logo=github)](https://github.com/MehhdiMarzban/simple-upload-component "Go to GitHub repo")
 
 [![npm - simple-upload-component](https://img.shields.io/badge/npm-simple--upload--component-green)](https://www.npmjs.com/package/simple-upload-component)
