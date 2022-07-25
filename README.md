@@ -1,4 +1,4 @@
-# simple upload component
+# simple upload component for React.js
 
 #### fast , easy to use, fully customizable
 
@@ -64,6 +64,21 @@ npm i simple-upload-component
 | listOfFilesItemNameClassess         | string | false      |
 | listOfFilesItemDeleteButtonClassess | string | false      |
 
+#### simple useage in react:
+```javascript
+import Upload from "simple-upload-react";
+import {useState} from "react";
+function App() {
+    const [files, setFiles] = useState([]);
+    return (
+        <div>
+            <Upload files={files} setFiles={setFiles} multiple />
+        </div>
+    );
+}
+
+export default App;
+```
 ## License
 
 Released under [MIT](/LICENSE) by [@MehhdiMarzban](https://github.com/MehhdiMarzban).
