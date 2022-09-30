@@ -70,10 +70,17 @@ import Upload from "simple-upload-react";
 import { useState } from "react";
 function App() {
     const [files, setFiles] = useState([]);
+
+    const handleUpload = async () => {
+        const data = new FormData();
+        data.append("upload", files);
+        const result = await fetch("upload-url", {body :data, method: "POST"});
+    
+
     return (
-        <div>
+        <form onSubmit={handleUpload}>
             <Upload files={files} setFiles={setFiles} multiple />
-        </div>
+        </form>
     );
 }
 
